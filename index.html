@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>preguntas y respuestas</title>
+</head>
+<body>
+
+        <div class="container" id="container">
+            <header class="header">
+                  <h1>App Quiz</h1>
+                <p class="aviso" id="aviso">Responde las siquientes respuestas</p>
+            </header>
+            <section>
+               <div class="resultado" id="resultado"> Resultado</div>
+                <form class="form" name="quizForm"  onsubmit="return verificarRespuestas()">
+
+                    <h3 class="preguntas">1. Qué fiesta se celebra el 12 de ctubre?</h3>
+
+                    <input type="radio" name="p1" value="a"> a. Fiesta de la independencia Nacional <br>
+                    <input type="radio" name="p1" value="b"> b. Fiesta de la constirución Nacional <br>
+                    <input type="radio" name="p1" value="c"> c. Fiesta del Orgullo nacional  <br>
+
+                    <h3 class="preguntas">2. ¿Cómo se llama la captal de la República de Guinea Ecuatorial?</h3>
+
+                    <input type="radio" name="p2" value="a"> a. Mongomo <br>
+                    <input type="radio" name="p2" value="b"> b. Malabo <br>
+                    <input type="radio" name="p2" value="c"> c. Ebebiyin <br>
+                    <input type="radio" name="p2" value="d"> d. Bata <br>
+
+                    <h3 class="preguntas">3. Cuántos poderes operan en la República de Guinea Ecuatorial?</h3>
+                    <input type="radio" name="p3" value="a"> a. poder Ejecutivo y lejislativo <br>
+                    <input type="radio" name="p3" value="b"> b. Poder admistrativo y poder presidencial <br>
+                    <input type="radio" name="p3" value="c"> c. Ejecutivo, judicial y lejislativo <br>
+                    <input type="radio" name="p3" value="d"> d. Social, ejecutivo y municipal <br>
+
+                    <h3 class="preguntas">4. La república de Guinea Ecuatorial es un pais independiente desde el año:</h3>
+                    <input type="radio" name="p4" value="a"> a. 1968 <br>
+                    <input type="radio" name="p4" value="b"> b. 1989 <br>
+                    <input type="radio" name="p4" value="c"> c. 1979 <br>
+                    <input type="radio" name="p4" value="d"> d. 1958 <br>
+
+                    <h3 class="preguntas">5. ¿Bata es la capital económica de Guinea Ecuatorial?</h3>
+                    <input type="radio" name="p5" value="a"> a. Falso <br>
+                    <input type="radio" name="p5" value="b"> b. Verdadero <br>
+
+
+                     <input type="submit" value="enviar">
+                </form>
+            </section>
+      </div>
+    <script src="./index.js"></script>
+</body>
+</html>

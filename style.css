@@ -1,0 +1,57 @@
+
+body {
+background: rgba(184, 72, 72, 0.521) ;
+
+
+}
+.header {
+     display: flex;
+    justify-content: center;
+    color: black;
+}
+.aviso {
+    color: 	#FFD700;
+    border-radius: 15px;
+    font-size: 25px;
+    height: 40px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.resultado {
+    background: white;
+    color: #039603;
+    border-radius: 15px;
+    font-size: 30px;
+    height: 40px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.form {
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+.preguntas {
+    margin-left: 20px;
+    display: flex;
+}
+input {
+    margin-left: 20px;
+}
+.validar {
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #35A628;
+    color: white;
+    border-radius: 17px;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
