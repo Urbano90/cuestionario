@@ -8,14 +8,11 @@
     <title>preguntas y respuestas</title>
 </head>
 <body>
-
         <div class="container" id="container">
             <header class="header">
-                  <h1>App Quiz</h1>
-                <p class="aviso" id="aviso">Responde las siquientes respuestas</p>
             </header>
             <section>
-               <div class="resultado" id="resultado"> Resultado</div>
+                <p class="titulo" id="aviso">Responde las siquientes respuestas</p>
                 <form class="form" name="quizForm"  onsubmit="return verificarRespuestas()">
 
                     <h3 class="preguntas">1. Qué fiesta se celebra el 12 de ctubre?</h3>
@@ -36,7 +33,7 @@
                     <input type="radio" name="p3" value="b"> b. Poder admistrativo y poder presidencial <br>
                     <input type="radio" name="p3" value="c"> c. Ejecutivo, judicial y lejislativo <br>
                     <input type="radio" name="p3" value="d"> d. Social, ejecutivo y municipal <br>
-
+                    <div class="resultado" id="resultado"></div>
                     <h3 class="preguntas">4. La república de Guinea Ecuatorial es un pais independiente desde el año:</h3>
                     <input type="radio" name="p4" value="a"> a. 1968 <br>
                     <input type="radio" name="p4" value="b"> b. 1989 <br>
@@ -47,8 +44,13 @@
                     <input type="radio" name="p5" value="a"> a. Falso <br>
                     <input type="radio" name="p5" value="b"> b. Verdadero <br>
 
+                    <h3 class="preguntas">6. ¿Cuántos colores tiene la bandera de Guinea Ecuatorial?:</h3>
+                    <input type="radio" name="p6" value="a"> a. 7 colores <br>
+                    <input type="radio" name="p6" value="b"> b. 2 colores <br>
+                    <input type="radio" name="p6" value="c"> c. 4 colores <br>
 
-                     <input type="submit" value="enviar">
+
+                     <input class="validar" type="submit" value="enviar">
                 </form>
             </section>
       </div>
